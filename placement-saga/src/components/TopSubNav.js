@@ -1,8 +1,8 @@
 import {Row,Col,CardPanel,Dropdown,Icon,Divider,Button} from 'react-materialize'
 function TopSubNav(){
     return(
-        <Row>
-            <Col className="subnavdropdown">
+        <Row class="body-head">
+            <Col className="subnavdropdown" m={3} s={12}>
                 <span><b>Date Range : </b></span>
                 <Dropdown
                     id="Dropdown_6"
@@ -28,40 +28,40 @@ function TopSubNav(){
                 </a>
                 </Dropdown>
             </Col>
-            <Col>
+            <Col m={3} s={12}>
                 <CardPanel>
                     <Row>
-                        <Col m={7}>
+                        <Col m={7} s={12}>
                             <span className="card-span">Require manual action</span>
                             <span className="card-span"><h6><b>34</b></h6></span>
                         </Col>
-                        <Col m={5}>
+                        <Col m={5} s={0}>
                             <img src="warning.png" className="icon"></img>
                         </Col>
                     </Row>
                 </CardPanel>
             </Col>
-            <Col>
+            <Col m={3} s={12}>
                 <CardPanel>
                     <Row>
-                        <Col m={7}>
+                        <Col m={7}  s={12}>
                             <span className="card-span">Marked as safe</span>
                             <span className="card-span"><h6><b>34</b></h6></span>
                         </Col>
-                        <Col m={5}>
+                        <Col m={5}  s={0}>
                             <img src="warning.png" className="icon"></img>
                         </Col>
                     </Row>
                 </CardPanel>
             </Col>
-            <Col>
+            <Col m={3} s={12}>
                 <CardPanel>
                     <Row>
-                        <Col m={7}>
+                        <Col m={7}  s={12}>
                             <span className="card-span">Hidden</span>
                             <span className="card-span"><h6><b>34</b></h6></span>
                         </Col>
-                        <Col m={5}>
+                        <Col m={5}  s={0}>
                             <img src="warning.png" className="icon"></img>
                         </Col>
                     </Row>
