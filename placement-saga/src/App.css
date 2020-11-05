@@ -1,6 +1,10 @@
 body{
     font-size: smaller;
 }
+h5{
+    font-weight: bolder !important;
+    font-size: x-large !important;
+}
 .main-body{
     background-color:rgb(209, 234, 250);
 }
@@ -24,7 +28,7 @@ nav{
     margin-left: 30px;
 }
 .channels{
-    background-color:rgb(230,230,250)  ;
+    background-color:rgba(240, 235, 235, 0.664) ;
     border-radius: 25px;
     width: 100%;
     padding: 4%;
@@ -42,6 +46,11 @@ nav{
 }
 .innerLi{
     margin-left: 30px;
+    font-weight: normal;
+}
+.stausLi{
+    margin: 11px;
+    font-weight: bolder;
 }
 .card-panel{
     height : 90px !important;
@@ -69,4 +78,17 @@ nav{
 .card-span{
     margin:0px;
     padding: 0px;
+}
+.progress-bar-container{
+    background-color: white;
+}
+.progress-bar{
+    max-height: 5px;
+    width:75%;
+    background-color: rgb(255,192,203);
+    color : white;
+    border-radius: 25px;
+}
+.barLabel{
+    text-align: end;
 }

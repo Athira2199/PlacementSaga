@@ -3,11 +3,11 @@ function Status (){
     return(
         <ul>
             <h5>Status</h5>
-            <li>
+            <li className="stausLi">
                 <span><Icon tiny className="tick">check</Icon></span>
                 Requires Manual Action
             </li>
-            <li>
+            <li className="stausLi">
                 <ul>
                     <span><Icon tiny className="tick">check</Icon></span>
                     Marked as safe by:
@@ -21,7 +21,7 @@ function Status (){
                     </li>
                 </ul>
             </li>
-            <li>
+            <li className="stausLi">
                 <ul>
                     <span><Icon tiny className="tick">check</Icon></span>
                     Hidden By
