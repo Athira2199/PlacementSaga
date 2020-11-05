@@ -92,12 +92,56 @@ nav{
 .barLabel{
     text-align: end;
 }
+.comments{
+    width : 60% !important;
+    height : auto !important;
+    text-align: justify;
+}
+.commentor :nth-child(1){
+    color : rgba(50, 0, 248, 0.664);
+    font-weight: bolder;
+}
+.commentor :nth-child(2){
+    color : rgba(141, 140, 140, 0.664);
+}
+.card-footer-right{
+    text-align: right;
+}
+.card-footer-right i{
+    background-color:#fdf7f7 !important;
+    border-radius: 25px;
+    font-weight:bolder;
+    margin-left: 14px !important;
+}
+.comment-tick{
+    color:#3cb371 !important;
+}
+.comment-eye{
+    color: rgb(221, 182, 8);
+}
+.card-footer-left{
+    background-color:rgba(240, 235, 235, 0.664) ;
+    border-radius: 25px;
+    padding: 11px;
+    text-align: center;
+}
+.card-footer-image{
+    width: 20px;
+    height: 20px;
+    display: inline-block  !important;
+}
+.card-footer-left label{
+    margin-left: 11px;
+    color:black;
+    padding-top: 0px;
+    margin-top : 0px;
+}
 @media screen and (min-device-width: 0px) and (max-device-width: 767px){
    .icon{
        display: none;
     }
     .card-panel{
-        width: 120px !important;
+        width:  100%  !important;
         height: fit-content !important;
         text-align: center !important;
     }
@@ -107,7 +151,7 @@ nav{
 }
 @media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
     .card-panel{
-        width: 200px !important;
+        width: 100% !important;
         height: fit-content !important;
         text-align: center !important;
         margin-left: 20px !important;
@@ -115,10 +159,6 @@ nav{
     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .card-panel{
-        width: 130px !important;
-        height: 90px !important;
-    }
     .icon{
         height : 40px;
         width  : 40px;
