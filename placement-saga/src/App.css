@@ -1,20 +1,30 @@
+body{
+    font-size: smaller;
+}
+.main-body{
+    background-color:rgb(209, 234, 250);
+}
 nav{
-    background-color: #fafafa  !important;
+    background-color: rgba(255, 255, 255, 0.664)  !important;
 }
 .tick{
     background: #3CB371;
-    color: white;
+    color: rgba(255, 255, 255, 0.664) ;
     border-radius: 20px;
     margin-right: 13px;
+    font-size: 14px !important;
+}
+.innerLi .tick{
+    font-size: 9px !important;
 }
 .youtube{
     background: #FF0000;
-    color: white;
+    color: rgba(255, 255, 255, 0.664) ;
     border-radius: 20px;
     margin-left: 30px;
 }
 .channels{
-    background-color: #fafafa ;
+    background-color:rgb(230,230,250)  ;
     border-radius: 25px;
     width: 100%;
     padding: 4%;
@@ -23,8 +33,40 @@ nav{
     margin-top: 11px;
 }
 .SideNavDiv{
-    background-color: azure;
+    background-color: rgba(255, 255, 255) ;
+    border-radius: 14px;
+    padding:11px;
+    align-content: center;
+    margin-top: 11px;
+    margin-bottom: 11px;
 }
 .innerLi{
     margin-left: 30px;
+}
+.card-panel{
+    height : 90px !important;
+    width  : 200px !important;
+    overflow: hidden;
+    padding-top: 5px !important;
+    padding-bottom: 0px !important;
+    text-align: center;
+    border-radius: 7px !important;
+}
+.btn{
+    background-color: rgba(255, 255, 255, 0.664)  !important;
+}
+.dropdown-trigger{
+    border-radius: 6px !important;
+}
+.subnavdropdown{
+    margin-top: 11px;
+}
+.icon{
+    height : 70px;
+    width  : 70px;
+    align-self: center;
+}
+.card-span{
+    margin:0px;
+    padding: 0px;
 }

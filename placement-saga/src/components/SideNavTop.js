@@ -1,7 +1,7 @@
 import 'materialize-css/dist/css/materialize.min.css';
 import PagesChannels from './PagesChannels'
 import Status from './Status'
-function SideNav(){
+function SideNavTop(){
     return(
       <div className="SideNavDiv">
         <PagesChannels></PagesChannels>
@@ -9,4 +9,4 @@ function SideNav(){
       </div>
     )
 }
-export default SideNav
+export default SideNavTop
