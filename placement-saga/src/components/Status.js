@@ -26,7 +26,7 @@ function Status (){
                     <span><Icon tiny className="tick">check</Icon></span>
                     Hidden By
                     <li className="innerLi">
-                        <span><Icon tiny className="tick">check</Icon></span>
+                        <span><Icon tiny className="hide_tick">check</Icon></span>
                         Manual Action
                     </li>
                     <li className="innerLi">
@@ -34,7 +34,7 @@ function Status (){
                         AI
                     </li>
                     <li className="innerLi">
-                        <span><Icon tiny className="tick">check</Icon></span>
+                        <span><Icon tiny className="hide_tick">check</Icon></span>
                         Keywords
                     </li>
                 </ul>

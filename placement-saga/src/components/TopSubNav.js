@@ -36,7 +36,7 @@ function TopSubNav(){
                             <span className="card-span"><h6><b>34</b></h6></span>
                         </Col>
                         <Col m={5} s={0}>
-                            <img src="warning.png" className="icon"></img>
+                            <img src="warning.webp" className="icon"></img>
                         </Col>
                     </Row>
                 </CardPanel>
@@ -49,7 +49,7 @@ function TopSubNav(){
                             <span className="card-span"><h6><b>34</b></h6></span>
                         </Col>
                         <Col m={5}  s={0}>
-                            <img src="warning.png" className="icon"></img>
+                            <img src="warning.webp" className="icon"></img>
                         </Col>
                     </Row>
                 </CardPanel>
@@ -62,7 +62,7 @@ function TopSubNav(){
                             <span className="card-span"><h6><b>34</b></h6></span>
                         </Col>
                         <Col m={5}  s={0}>
-                            <img src="warning.png" className="icon"></img>
+                            <img src="warning.webp" className="icon"></img>
                         </Col>
                     </Row>
                 </CardPanel>

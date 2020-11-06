@@ -10,15 +10,24 @@ h5{
 }
 nav{
     background-color: rgba(255, 255, 255, 0.664)  !important;
+    border-radius: 0px !important;
 }
-.tick{
+.tick,.hide_tick{
     background: #3CB371;
     color: rgba(255, 255, 255, 0.664) ;
     border-radius: 20px;
     margin-right: 13px;
     font-size: 14px !important;
 }
+.hide_tick{
+    background: rgb(211, 209, 209) ;
+    color:  rgb(211, 209, 209) ;
+    border: black !important;
+}
 .innerLi .tick{
+    font-size: 9px !important;
+}
+.innerLi .hide_tick{
     font-size: 9px !important;
 }
 .youtube{
@@ -70,9 +79,9 @@ nav{
 .subnavdropdown{
     margin-top: 11px;
 }
-.icon{
-    height : 70px;
-    width  : 70px;
+.icon, .icon-warning{
+    height : 40px;
+    width  : 40px;
     align-self: center;
 }
 .card-span{
@@ -106,6 +115,7 @@ nav{
 }
 .card-footer-right{
     text-align: right;
+    padding-left:100px !important;
 }
 .card-footer-right i{
     background-color:#fdf7f7 !important;
@@ -150,6 +160,9 @@ nav{
 .post-comment-footer{
     align-items: flex-end;
 }
+.icon-img{
+    padding-left:270px !important;
+}
 @media screen and (min-device-width: 0px) and (max-device-width: 767px){
    .icon{
        display: none;
@@ -162,6 +175,12 @@ nav{
     .body-head{
         align-content: center;
     }
+    .card-footer-right{
+        padding-left: 0px !important;
+    }
+    .icon-img{
+        padding-left:70px !important;
+    }
 }
 @media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
     .card-panel{
@@ -170,6 +189,12 @@ nav{
         text-align: center !important;
         margin-left: 20px !important;
         margin-top: 4px !important;
+    }
+    .card-footer-right{
+        padding-left: 0px !important;
+    }
+    .icon-img{
+        padding-left:70px !important;
     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -183,6 +208,12 @@ nav{
         text-align: center !important;
         margin-left: 20px !important;
         margin-top: 4px !important;
+    }
+    .card-footer-right{
+        padding-left: 0px !important;
+    }
+    .icon-img{
+        padding-left:70px !important;
     }
 }
 .sample{

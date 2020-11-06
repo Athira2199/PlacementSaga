@@ -24,6 +24,9 @@ function App() {
           <Row>
             <Col m={7} s={12}>
               <Comments></Comments>
+              <Comments></Comments>
+              <Comments></Comments>
+              <Comments></Comments>
             </Col>
             <Col m={5} s={12}>
               <Post></Post>
