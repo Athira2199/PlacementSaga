@@ -1,7 +1,7 @@
 import {Row,Col,CardPanel,Dropdown,Icon,Divider,Button} from 'react-materialize'
 function TopSubNav(){
     return(
-        <Row class="body-head">
+        <Row className="body-head">
             <Col className="subnavdropdown" m={3} s={12}>
                 <span><b>Date Range : </b></span>
                 <Dropdown

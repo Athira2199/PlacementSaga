@@ -16,9 +16,19 @@ function App() {
           <SideNavBottom></SideNavBottom>
         </Col>
         <Col m={9} s={12}>
-          <TopSubNav></TopSubNav>
-          <Post></Post>
-          <Comments></Comments>
+          <Row>
+            <Col m={12} s={12}>
+              <TopSubNav></TopSubNav>
+            </Col>
+          </Row>
+          <Row>
+            <Col m={7} s={12}>
+              <Comments></Comments>
+            </Col>
+            <Col m={5} s={12}>
+              <Post></Post>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </div>

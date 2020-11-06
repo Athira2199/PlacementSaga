@@ -3,10 +3,12 @@ function Comments(){
     return(
         <CardPanel className="comments">
             <Row>
-                <Col></Col>
+                <Col>
+                    <img className="personIcon"src="boy.jpg"></img>
+                </Col>
                 <Col className="commentor">
-                    <p>Name</p>
-                    <p>Date</p>
+                    <p>Pragya Mukhi</p>
+                    <p>2:03pm, today</p>
                 </Col>
                 <Col></Col>
             </Row>
