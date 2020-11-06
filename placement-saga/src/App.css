@@ -115,7 +115,7 @@ nav{
 }
 .card-footer-right{
     text-align: right;
-    padding-left:100px !important;
+    /* padding-left:100px !important; */
 }
 .card-footer-right i{
     background-color:#fdf7f7 !important;
